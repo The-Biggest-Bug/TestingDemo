@@ -16,6 +16,6 @@ env/
 
 # VS Code
 .vscode/
-
+e
 # macOS
 .DS_Store
