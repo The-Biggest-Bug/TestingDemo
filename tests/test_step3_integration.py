@@ -9,9 +9,9 @@
 #   Integration tests use the REAL modules — so a bug in inventory
 #   will now surface here even if orders.py itself is fine.
 
-import inventory
-import notifications
-import orders
+from src import inventory
+from src import notifications
+from src import orders
 
 
 # ── Shared setup/teardown ─────────────────────────────────────────────────────

@@ -17,10 +17,10 @@
 #      specific module pairs.
 #    - Tests represent realistic user scenarios (happy path, sad paths).
 #    - We are not deliberately breaking internal interfaces here.
-import cart
-import inventory
-import notifications
-import checkout
+from src import cart
+from src import inventory
+from src import notifications
+from src import checkout
 
 
 # ── Shared setup ──────────────────────────────────────────────────────────────

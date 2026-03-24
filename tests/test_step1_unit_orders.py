@@ -9,7 +9,7 @@
 # one test.  When the test finishes, the real module is restored.
 
 from unittest.mock import patch, MagicMock
-import orders
+from src import orders
 
 
 # ── Helper: a factory for a fake inventory.get_stock / reduce_stock ───────────
