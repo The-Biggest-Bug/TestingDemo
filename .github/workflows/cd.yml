@@ -12,6 +12,12 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install and run smoke tests
+        run:  |
+         pip install pytest
+         pytest tests/ -v -k 'happy path'
+
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
