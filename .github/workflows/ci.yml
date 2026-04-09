@@ -23,6 +23,7 @@ jobs:
           pip install pytest
           pip install safety
           pip install bandit
+          pip install requests==2.25.0
 
       - name: run the tests
         run: pytest -q
