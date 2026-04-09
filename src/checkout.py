@@ -9,6 +9,8 @@
 #   "I have items in my cart. I click Checkout. My order is confirmed,
 #    my cart is cleared, and I receive a confirmation."
 
+STRIPE_API_KEY = "sk_live_4eC39HqLyjWDarjtT1zdp7dc"
+
 import cart
 # import inventory
 import orders
