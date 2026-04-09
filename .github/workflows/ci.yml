@@ -21,6 +21,8 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest
+          pip install safety
+          pip install bandit
 
       - name: run the tests
         run: pytest -q
